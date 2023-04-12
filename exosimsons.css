@@ -1,0 +1,132 @@
+* {
+    margin : 0;
+    padding: 0;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    background-color: yellow;
+    padding : 0 15%;
+}
+
+/* --------------------------HEADER--------------------- */
+
+header {
+    background-color: #2884E0;
+   display: flex;
+   justify-content: center;
+   color: white;
+   flex-direction: column;
+}
+
+.entete {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.baniere {
+    width: 100%;
+}
+
+/* ------------------- MAIN -------------------------- */
+main {
+    display: flex;
+    background-color: white;
+    text-align: justify;
+    align-items: start;
+    /*padding-top: 15px;
+    padding-bottom: 15px;*/
+
+}
+
+nav {
+    background-color: #2884E0;
+    text-align: center;
+    width: 25%;
+    padding: 10px;
+}
+
+a {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+}
+
+article {
+    background-color: white;
+    width: 100%;
+    text-align: justify;
+    padding: 10px;
+}
+
+h1 {
+    color: orange;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+aside {
+    background-color: #2884E0;
+    width: 30%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    padding: 10px;
+}
+
+.matt {
+    width: 50%;
+    height: 50%;
+    border: solid white;
+}
+
+.matt2 {
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* -------------------- FOOTER ------------------------- */
+
+footer {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: large;
+    padding: 5px;
+}
+
+/* --------------------MOBILE --------------------------- */
+
+@media (max-width: 720px) {
+    main {
+      flex-direction: column;
+    }
+    aside {
+        flex-direction: row;
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+    }
+  }
+
+
+
+
+
+
+
